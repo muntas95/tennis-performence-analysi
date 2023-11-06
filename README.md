@@ -1,24 +1,4 @@
-## Forecasting the winner in the Men's ATP World Tour [[view code]](http://nbviewer.jupyter.org/github/marcotav/machine-learning-classification-projects/blob/master/tennis/notebooks/Final_Project_Marco_Tavora-DATNYC41_GA.ipynb) 
-![image title](https://img.shields.io/badge/work-in%20progress-blue.svg) ![image title](https://img.shields.io/badge/statsmodels-v0.8.0-blue.svg) ![Image title](https://img.shields.io/badge/sklearn-0.19.1-orange.svg) ![Image title](https://img.shields.io/badge/seaborn-v0.8.1-yellow.svg) ![Image 
 
-<br>
-
-<p align="center">
-  <img src="images/ATP_World_Tour.png">
-</p>                                                                  
-<p align="center">
-  <a href="#Problem Statement"> Problem Statement </a> •
-  <a href="#Dataset"> Dataset </a> •
-  <a href="#Importing basic modules"> Importing basic modules</a> •
-  <a href="#Pre-Processing of dataset"> Pre-Processing of dataset</a><br> 
-  <a href="#`Best_of` = 5"> `Best_of` = 5</a> •
-  <a href="#Dummy variables">Dummy variables</a> •
-  <a href="#Exploratory Analysis for Best_of = 5">Exploratory Analysis for Best_of = 5</a> •
-  <a href="#Logistic Regression">Logistic Regression</a> •
-  <a href="#Decision Trees and Random Forests">Decision Trees and Random Forests</a> 
-</p>
-
-<a id = 'Problem Statement'></a>
 ## Problem Statement
 
 The goal of the project is to predict the probability that the higher-ranked player will win a tennis match. I will call that a `win`(as opposed to an upset). 
